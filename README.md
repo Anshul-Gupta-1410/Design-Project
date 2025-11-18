@@ -1,7 +1,6 @@
 # Design-Project
-A Hybrid Proactive and Predictive Framework for Edge-Cloud Resource Management
 
-# 🚀 Hybrid Proactive & Predictive Framework for Edge–Cloud Resource Management
+# A Hybrid Proactive & Predictive Framework for Edge–Cloud Resource Management
 
 This repository contains the source code for **"A Hybrid Proactive and Predictive Framework for Edge-Cloud Resource Management"**, a design project developed at **IIIT Vadodara**.  
 The project proposes a *future-aware*, AI-driven system that intelligently manages resources across cloud and edge devices using:
@@ -83,21 +82,21 @@ Phase 1 — Predictive Module Training
 Phase 2 — DRL Agent Training
 
 - For each step:
-- - Generate forecast using CNN-LSTM
+ - Generate forecast using CNN-LSTM
 
-- - Form extended state: [current_state, forecast]
+ - Form extended state: [current_state, forecast]
 
-- - DQN/DDQN selects hybrid action:
+ - DQN/DDQN selects hybrid action:
 
-- - - Discrete → Offloading target (Edge 1/2/.../Cloud)
+   - Discrete → Offloading target (Edge 1/2/.../Cloud)
 
-- - - Continuous → Resource allocation vector
+   - Continuous → Resource allocation vector
 
-- - Store transitions in replay buffer
+ - Store transitions in replay buffer
 
-- - Perform DDQN updates
+ - Perform DDQN updates
 
-- -Update target network
+ - Update target network
 
 🛠 Technologies Used
 ---
