@@ -74,31 +74,33 @@ cd Design-Project
 
 
 🧪 How the System Works
+---
 Phase 1 — Predictive Module Training
-Train CNN-LSTM on historical workload dataset
-Save model for inference
+
+- Train CNN-LSTM on historical workload dataset
+- Save model for inference
 
 Phase 2 — DRL Agent Training
 
-For each step:
+- For each step:
+- - Generate forecast using CNN-LSTM
 
-Generate forecast using CNN-LSTM
+- - Form extended state: [current_state, forecast]
 
-Form extended state: [current_state, forecast]
+- - DQN/DDQN selects hybrid action:
 
-DQN/DDQN selects hybrid action:
+- - - Discrete → Offloading target (Edge 1/2/.../Cloud)
 
-Discrete → Offloading target (Edge 1/2/.../Cloud)
+- - - Continuous → Resource allocation vector
 
-Continuous → Resource allocation vector
+- - Store transitions in replay buffer
 
-Store transitions in replay buffer
+- - Perform DDQN updates
 
-Perform DDQN updates
-
-Update target network
+- -Update target network
 
 🛠 Technologies Used
+---
 
 Python
 
@@ -111,20 +113,20 @@ Matplotlib / Seaborn
 Deep Reinforcement Learning
 
 CNN + LSTM Neural Networks
----
 
 📚 Research Paper
-
+---
 This codebase is aligned with the design project documented in:
 
 "A Hybrid Proactive and Predictive Framework for Edge-Cloud Resource Management"
 
 Authors:
+---
 Anika Garg, Hrikshesh Kumar, Anshul Gupta, Yashika Agarwal, Dr. Rishabh Gupta
 IIIT Vadodara, Gandhinagar
 
 🚧 Future Work
-
+---
 Incorporate Federated Learning for decentralized model training
 
 Build an Uncertainty-Aware DRL agent using Bayesian neural networks
@@ -134,11 +136,11 @@ Explore Sim-to-Real transfer for deployment on real edge devices
 Support for multi-agent orchestration (MADRL)
 
 🤝 Contributing
-
+---
 Pull requests and feature suggestions are welcome!
 
 ⭐ Acknowledgments
-
+---
 Special thanks to
 Department of IT, IIIT Vadodara
 for guidance, support, and research resources.
