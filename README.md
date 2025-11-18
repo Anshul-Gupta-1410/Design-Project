@@ -54,6 +54,8 @@ A lightweight Python-based simulator (`iFogSimEnv`) replicates:
 | **Operational Cost** | 52.53 | **3.06** |
 | **Latency** | 4.47 | **4.19** |
 | **Throughput** | 0.101 | **0.109** |
+| **Utilization** | 0.51 | **0.51** |
+
 
 The hybrid model achieves **5× better overall reward**, with dramatic improvements in cost and energy efficiency.
 
@@ -67,7 +69,7 @@ The hybrid model achieves **5× better overall reward**, with dramatic improveme
 ```bash
 git clone https://github.com/Anshul-Gupta-1410/Design-Project.git
 cd Design-Project
-
+```
 ### **2. Then run base.ipynb and Hybrid.ipynb**
 
 
