@@ -82,21 +82,21 @@ Phase 1 — Predictive Module Training
 Phase 2 — DRL Agent Training
 
 - For each step:
- - Generate forecast using CNN-LSTM
-
- - Form extended state: [current_state, forecast]
-
- - DQN/DDQN selects hybrid action:
-
-   - Discrete → Offloading target (Edge 1/2/.../Cloud)
-
-   - Continuous → Resource allocation vector
-
- - Store transitions in replay buffer
-
- - Perform DDQN updates
-
- - Update target network
+  - Generate forecast using CNN-LSTM
+ 
+  - Form extended state: [current_state, forecast]
+ 
+  - DQN/DDQN selects hybrid action:
+ 
+    - Discrete → Offloading target (Edge 1/2/.../Cloud)
+ 
+    - Continuous → Resource allocation vector
+ 
+  - Store transitions in replay buffer
+ 
+  - Perform DDQN updates
+ 
+  - Update target network
 
 🛠 Technologies Used
 ---
