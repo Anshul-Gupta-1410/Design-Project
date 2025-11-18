@@ -129,13 +129,13 @@ IIIT Vadodara, Gandhinagar
 
 🚧 Future Work
 ---
-Incorporate Federated Learning for decentralized model training
+- Incorporate Federated Learning for decentralized model training
 
-Build an Uncertainty-Aware DRL agent using Bayesian neural networks
+- Build an Uncertainty-Aware DRL agent using Bayesian neural networks
 
-Explore Sim-to-Real transfer for deployment on real edge devices
+- Explore Sim-to-Real transfer for deployment on real edge devices
 
-Support for multi-agent orchestration (MADRL)
+- Support for multi-agent orchestration (MADRL)
 
 🤝 Contributing
 ---
