@@ -121,7 +121,8 @@ This codebase is aligned with the design project documented in:
 
 Authors:
 ---
-Anika Garg, Hrikshesh Kumar, Anshul Gupta, Yashika Agarwal, Dr. Rishabh Gupta
+Anika Garg, Hrikshesh Kumar, Anshul Gupta, Yashika Agarwal 
+Under the mentorship of Dr. Rishabh Gupta
 IIIT Vadodara, Gandhinagar
 
 🚧 Future Work
